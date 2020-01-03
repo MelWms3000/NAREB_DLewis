@@ -58,7 +58,7 @@
     "cookiesAlert": false,
     "gdpr": false,
     "pwa-switcher": true,
-    "uniqCompNum": 80,
+    "uniqCompNum": 81,
     "versionPublish": "4.11.6",
     "screenshot": "screenshot.png",
     "PWA": {
@@ -141,7 +141,7 @@
                 "tooltip": "@PROJECT_PATH@/assets/images/mbr-85x48.png",
                 "title": "title 2",
                 "text": "text 2",
-                "active": true,
+                "active": false,
                 "alt": ""
               },
               {
@@ -164,6 +164,17 @@
                 "title": "title 2",
                 "text": "text 2",
                 "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/nareblogo-2-800x600.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/nareblogo-1-800x600.jpeg",
+                "tooltip": "@PROJECT_PATH@/assets/images/nareblogo-2-85x48.png",
+                "title": "title 2",
+                "text": "text 2",
+                "active": true,
+                "alt": ""
               }
             ],
             "fullScreen": true,
@@ -321,6 +332,23 @@
           ],
           "_name": "wowslider",
           "_anchor": "wowslider-1g"
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "[JS_CODE_0][JS_CODE_1]",
+          "_customCSS": "",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_anchor": "custom-html-28",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [
+            "<script type=\"text/javascript\" src=\"//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js\" data-dojo-config=\"usePlainJson: true, isDebug: false\"></script>",
+            "<script type=\"text/javascript\">window.dojoRequire([\"mojo/signup-forms/Loader\"], function(L) { L.start({\"baseUrl\":\"mc.us4.list-manage.com\",\"uuid\":\"28722e4a7351028b8410973c1\",\"lid\":\"f7160b8f5c\",\"uniqueMethods\":true}) })</script>"
+          ]
         },
         {
           "alias": "mobirise4-blocks/components",
