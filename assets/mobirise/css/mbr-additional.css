@@ -1670,6 +1670,7 @@ section.lazy-placeholder:after {
 }
 .cid-rNWPmY0woW .navbar-dropdown {
   padding: .5rem 1rem;
+  position: fixed;
 }
 .cid-rNWPmY0woW a.nav-link {
   -webkit-justify-content: center;
@@ -2393,6 +2394,7 @@ section.lazy-placeholder:after {
 }
 .cid-rNWPmY0woW .navbar-dropdown {
   padding: .5rem 1rem;
+  position: fixed;
 }
 .cid-rNWPmY0woW a.nav-link {
   -webkit-justify-content: center;
@@ -2490,7 +2492,7 @@ section.lazy-placeholder:after {
   }
 }
 .cid-rMQOlfaGN2 {
-  padding-top: 15px;
+  padding-top: 45px;
   padding-bottom: 45px;
   background-color: #ffffff;
 }
@@ -2533,6 +2535,57 @@ section.lazy-placeholder:after {
 .cid-rKLKGQYHkI .mbr-text {
   text-align: center;
   color: #0b429c;
+}
+.cid-rNWWn1AB7u {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #ffffff;
+}
+.cid-rNWWn1AB7u .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-rNWWjCKtlU {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #f8f8f8;
+}
+.cid-rNWWjCKtlU .card {
+  display: block;
+  position: relative;
+}
+.cid-rNWWjCKtlU .card .card-wrapper {
+  background: #efefef;
+  height: 1%;
+}
+.cid-rNWWjCKtlU .card .card-wrapper .card-img {
+  position: relative;
+  overflow: hidden;
+  border-radius: 0;
+  z-index: 1;
+}
+.cid-rNWWjCKtlU .card .card-wrapper .card-img img {
+  transition: all .5s;
+}
+.cid-rNWWjCKtlU .card .card-wrapper .card-img .img-text {
+  position: absolute;
+  padding: .6rem;
+  top: 1.5rem;
+  left: 1.5rem;
+  z-index: 1;
+  border-radius: 100px;
+  background-color: #e96188;
+}
+.cid-rNWWjCKtlU .card .card-wrapper .card-img .img-text span {
+  display: block;
+}
+.cid-rNWWjCKtlU .card .card-wrapper .card-box {
+  padding: 1.5rem;
+}
+.cid-rNWWjCKtlU .mbr-card-text {
+  margin: 0;
+}
+.cid-rNWWjCKtlU .mbr-section-title {
+  text-align: center;
 }
 .cid-rKMAARI0T5 {
   padding-top: 30px;
@@ -2839,6 +2892,7 @@ section.lazy-placeholder:after {
 }
 .cid-rNWPmY0woW .navbar-dropdown {
   padding: .5rem 1rem;
+  position: fixed;
 }
 .cid-rNWPmY0woW a.nav-link {
   -webkit-justify-content: center;
@@ -4131,6 +4185,7 @@ section.lazy-placeholder:after {
 }
 .cid-rNWPmY0woW .navbar-dropdown {
   padding: .5rem 1rem;
+  position: fixed;
 }
 .cid-rNWPmY0woW a.nav-link {
   -webkit-justify-content: center;
@@ -4745,6 +4800,7 @@ section.lazy-placeholder:after {
 }
 .cid-rNWPmY0woW .navbar-dropdown {
   padding: .5rem 1rem;
+  position: fixed;
 }
 .cid-rNWPmY0woW a.nav-link {
   -webkit-justify-content: center;
